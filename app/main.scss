@@ -1,0 +1,24 @@
+// @import "solid"
+
+body {
+
+  ul {
+      list-style: none;
+  }
+}
+
+.container {
+  display: flex;
+
+  .text-input.item {
+    flex-grow: 1;
+  }
+}
+
+
+.note .delete-note {
+  visibility: hidden;
+}
+.note:hover .delete-note {
+  visibility: visible;
+}
